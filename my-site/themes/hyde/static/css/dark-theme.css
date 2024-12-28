@@ -1,0 +1,28 @@
+/* ダークテーマ用のスタイル */
+body.dark-theme {
+    background-color: #202020;
+    color: #ffffff;
+  }
+  
+  a {
+    color: #bb86fc;
+  }
+  
+  header, footer {
+    background-color: #1f1f1f;
+  }
+
+body.dark-theme .site-header h1 {
+    color: #fff; /* ダークテーマ時のタイトル色 */
+  }
+
+  /* ライトテーマ時のデフォルトスタイル */
+  body {
+    background-color: #f9f9f9;
+  color: #000;
+  }
+
+.site-header h1 {
+  color: #fff; 
+}
+  /* 必要に応じて他の要素のスタイルを追加 */

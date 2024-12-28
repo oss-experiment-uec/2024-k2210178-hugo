@@ -1,0 +1,15 @@
+<header class="site-header">
+    <div class="container">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <nav>
+        <ul class="header-nav">
+          <li><a href="{{ .Site.BaseURL }}">Home</a></li>
+          {{ range .Site.Menus.main -}}
+            <li><a href="{{.URL}}">{{ .Name }}</a></li>
+          {{- end }}
+        </ul>
+      </nav>
+      <button id="theme-toggle">dark-theme</button>
+    </div>
+  </header>
+  
